@@ -1,0 +1,19 @@
+identifier: checkout-single-subscription
+title: Checkout Single Subscription
+blueprint: repository
+properties:
+  description: |
+    Reference implementation demonstrating how to combine Stripe Checkout 
+    and Billing for fast, single-subscription landing pages.
+  owner_team: "Billing & Growth"
+  tech_stack:
+    - CSS
+    - HTML
+    - JavaScript
+    - Stripe API
+  repo_url: "https://github.com/umeshudayan000/checkout-single-subscription"
+  documentation_url: "https://github.com/umeshudayan000/checkout-single-subscription#readme"
+  status: active
+  primary_language: CSS
+relations:
+  depends_on_repos: []
