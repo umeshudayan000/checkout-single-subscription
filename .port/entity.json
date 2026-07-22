@@ -1,0 +1,32 @@
+{
+  "identifier": "checkout-single-subscription",
+  "title": "Checkout Single Subscription",
+  "blueprint": "githubRepository",
+  "properties": {
+    "description": "Lightweight subscription management and checkout integration. Handles Stripe recurring billing, webhook processing, and tier updates.",
+    "owner_team": "Billing & Commerce Team",
+    "tech_stack": [
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "Stripe API"
+    ],
+    "repo_url": "https://github.com/umeshudayan000/checkout-single-subscription",
+    "documentation_url": "https://github.com/umeshudayan000/checkout-single-subscription#readme",
+    "status": "active",
+    "primary_language": "JavaScript",
+    "main_entry_files": [
+      "server.js",
+      "app.js"
+    ],
+    "test_command": "npm test"
+  },
+  "relations": {
+    "depends_on_repos": [
+      "identityserver4-admin"
+    ],
+    "consumed_by": [
+      "ever-gauzy"
+    ]
+  }
+}
