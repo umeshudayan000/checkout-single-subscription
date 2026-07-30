@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: checkout-single-subscription
+  description: >-
+    An end-to-end Stripe integration sample demonstrating subscription management via Stripe Checkout. 
+    Includes prebuilt server implementations (Node.js, Python, Go, Ruby, .NET) and web clients 
+    handling recurring payments, automatic 3D Secure / Strong Customer Authentication (SCA), 
+    webhook event listeners for subscription status changes, and customer lifecycle onboarding.
+  annotations:
+    github.com/project-slug: 'umeshudayan000/checkout-single-subscription'
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - stripe
+    - payments
+    - subscription
+    - checkout-api
+    - billing
+    - javascript
+    - nodejs
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/guest
