@@ -3,7 +3,7 @@
   "title": "Checkout Single Subscription",
   "blueprint": "githubRepository",
   "properties": {
-    "description": "Lightweight subscription management and checkout integration. Handles Stripe recurring billing, webhook processing, and tier updates.",
+    "description": "A reference implementation showing how to stand up a recurring-billing subscription payment page using Stripe Checkout and Stripe Billing together, without needing a custom server for the payment flow itself. Covers subscription tier selection (e.g. Basic/Premium), Checkout Session creation, customer record tracking across renewals, Apple Pay and card payments, dynamic 3D Secure/SCA authentication, and optional automated sales tax via Stripe Tax. Provided in eight parallel server implementations (Node, Ruby, Python, Java, PHP, Go, .NET) with 25+ language localization.",
     "owner_team": "Billing & Commerce Team",
     "tech_stack": [
       "JavaScript",
