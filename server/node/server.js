@@ -42,6 +42,10 @@ app.get("/", (req, res) => {
   res.sendFile(filePath);
 });
 
+app.get("/health", (req, res) => {
+  res.json({ status: "ok" });
+});
+
 // Fetch the Checkout Session to display the JSON result on the success page
 app.get("/checkout-session", async (req, res) => {
   const { sessionId } = req.query;
